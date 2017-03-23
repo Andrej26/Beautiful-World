@@ -274,6 +274,21 @@ a:focus {
 ul.banner-social-buttons {
   margin-top: 0;
 }
+
+.btn-primary {
+  border: 1px solid whitesmoke;
+  color:white;
+  background-color: transparent;
+  margin-top: 7px;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border: 1px solid lightblue;
+  outline: none;
+  color: black;
+  background-color:lightblue;
+}
+
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
